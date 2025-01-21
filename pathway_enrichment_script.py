@@ -3,10 +3,10 @@ import json
 import pandas as pd
 
 # Input file path
-input_file = r'G:\Other computers\My Laptop\Ayassbioscience-workplace\Automation-Codes\pathways-analysis\genes.xlsx'
+input_file = r'genes.xlsx'
 
 # Output file path
-output_file = r'G:\Other computers\My Laptop\Ayassbioscience-workplace\Automation-Codes\pathways-analysis\genes_enrichment.xlsx'
+output_file = r'genes_enrichment.xlsx'
 
 # Read the input Excel file
 df = pd.read_excel(input_file)
